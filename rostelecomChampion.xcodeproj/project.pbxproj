@@ -16,23 +16,28 @@
 		8301B7591D95361F00C5FF3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8301B7571D95361F00C5FF3D /* LaunchScreen.storyboard */; };
 		8301B8041D9545E600C5FF3D /* AppServeceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B8031D9545E600C5FF3D /* AppServeceProvider.m */; };
 		8301B8071D9546D000C5FF3D /* ConnectionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B8061D9546D000C5FF3D /* ConnectionService.m */; };
-		8301B8221D95494F00C5FF3D /* Task+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B80D1D95494F00C5FF3D /* Task+CoreDataClass.m */; };
-		8301B8241D95494F00C5FF3D /* Department+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B8111D95494F00C5FF3D /* Department+CoreDataClass.m */; };
-		8301B8251D95494F00C5FF3D /* Department+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B8131D95494F00C5FF3D /* Department+CoreDataProperties.m */; };
-		8301B8261D95494F00C5FF3D /* Attachment+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B8151D95494F00C5FF3D /* Attachment+CoreDataClass.m */; };
-		8301B8271D95494F00C5FF3D /* Attachment+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B8171D95494F00C5FF3D /* Attachment+CoreDataProperties.m */; };
-		8301B8281D95494F00C5FF3D /* Request+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B8191D95494F00C5FF3D /* Request+CoreDataClass.m */; };
-		8301B8291D95494F00C5FF3D /* Request+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B81B1D95494F00C5FF3D /* Request+CoreDataProperties.m */; };
-		8301B82A1D95494F00C5FF3D /* Balance_log+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B81D1D95494F00C5FF3D /* Balance_log+CoreDataClass.m */; };
-		8301B82B1D95494F00C5FF3D /* Balance_log+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B81F1D95494F00C5FF3D /* Balance_log+CoreDataProperties.m */; };
-		8301B8421D954D8000C5FF3D /* User+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B8391D954D8000C5FF3D /* User+CoreDataClass.m */; };
-		8301B8431D954D8000C5FF3D /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B83B1D954D8000C5FF3D /* User+CoreDataProperties.m */; };
-		8301B8441D954D8000C5FF3D /* Achievement+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B83D1D954D8000C5FF3D /* Achievement+CoreDataClass.m */; };
-		8301B8451D954D8000C5FF3D /* Achievement+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B83F1D954D8000C5FF3D /* Achievement+CoreDataProperties.m */; };
-		8301B8461D954D8000C5FF3D /* Task+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8301B8411D954D8000C5FF3D /* Task+CoreDataProperties.m */; };
+		8320E4D21D9577C900AC7E29 /* AchievementMO+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4B31D9577C900AC7E29 /* AchievementMO+CoreDataClass.m */; };
+		8320E4D31D9577C900AC7E29 /* AchievementMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4B51D9577C900AC7E29 /* AchievementMO+CoreDataProperties.m */; };
+		8320E4D41D9577C900AC7E29 /* TaskMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4B71D9577C900AC7E29 /* TaskMO.m */; };
+		8320E4D51D9577C900AC7E29 /* TaskMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4B91D9577C900AC7E29 /* TaskMO+CoreDataProperties.m */; };
+		8320E4D61D9577C900AC7E29 /* AttachmentMO+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4BB1D9577C900AC7E29 /* AttachmentMO+CoreDataClass.m */; };
+		8320E4D71D9577C900AC7E29 /* AttachmentMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4BD1D9577C900AC7E29 /* AttachmentMO+CoreDataProperties.m */; };
+		8320E4D81D9577C900AC7E29 /* UserMO+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4BF1D9577C900AC7E29 /* UserMO+CoreDataClass.m */; };
+		8320E4D91D9577C900AC7E29 /* UserMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4C11D9577C900AC7E29 /* UserMO+CoreDataProperties.m */; };
+		8320E4DA1D9577C900AC7E29 /* DepartmentMO+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4C31D9577C900AC7E29 /* DepartmentMO+CoreDataClass.m */; };
+		8320E4DB1D9577C900AC7E29 /* DepartmentMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4C51D9577C900AC7E29 /* DepartmentMO+CoreDataProperties.m */; };
+		8320E4DC1D9577C900AC7E29 /* RequestMO+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4C71D9577C900AC7E29 /* RequestMO+CoreDataClass.m */; };
+		8320E4DD1D9577C900AC7E29 /* RequestMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4C91D9577C900AC7E29 /* RequestMO+CoreDataProperties.m */; };
+		8320E4DE1D9577C900AC7E29 /* Balance_logMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4CB1D9577C900AC7E29 /* Balance_logMO.m */; };
+		8320E4DF1D9577C900AC7E29 /* Balance_logMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4CD1D9577C900AC7E29 /* Balance_logMO+CoreDataProperties.m */; };
+		8320E4E01D9577C900AC7E29 /* LevelMO+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4CF1D9577C900AC7E29 /* LevelMO+CoreDataClass.m */; };
+		8320E4E11D9577C900AC7E29 /* LevelMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4D11D9577C900AC7E29 /* LevelMO+CoreDataProperties.m */; };
+		B1C7CC2489883A844E184A4D /* libPods-rostelecomChampion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139E688A929E37A81D8513C5 /* libPods-rostelecomChampion.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		139E688A929E37A81D8513C5 /* libPods-rostelecomChampion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rostelecomChampion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7448FA7F4E22427DAC178489 /* Pods-rostelecomChampion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rostelecomChampion.release.xcconfig"; path = "Pods/Target Support Files/Pods-rostelecomChampion/Pods-rostelecomChampion.release.xcconfig"; sourceTree = "<group>"; };
 		8301B7431D95361F00C5FF3D /* rostelecomChampion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rostelecomChampion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8301B7471D95361F00C5FF3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8301B7491D95361F00C5FF3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,34 +52,39 @@
 		8301B8031D9545E600C5FF3D /* AppServeceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppServeceProvider.m; sourceTree = "<group>"; };
 		8301B8051D9546D000C5FF3D /* ConnectionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionService.h; sourceTree = "<group>"; };
 		8301B8061D9546D000C5FF3D /* ConnectionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionService.m; sourceTree = "<group>"; };
-		8301B80C1D95494F00C5FF3D /* Task+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Task+CoreDataClass.h"; sourceTree = "<group>"; };
-		8301B80D1D95494F00C5FF3D /* Task+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Task+CoreDataClass.m"; sourceTree = "<group>"; };
-		8301B8101D95494F00C5FF3D /* Department+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Department+CoreDataClass.h"; sourceTree = "<group>"; };
-		8301B8111D95494F00C5FF3D /* Department+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Department+CoreDataClass.m"; sourceTree = "<group>"; };
-		8301B8121D95494F00C5FF3D /* Department+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Department+CoreDataProperties.h"; sourceTree = "<group>"; };
-		8301B8131D95494F00C5FF3D /* Department+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Department+CoreDataProperties.m"; sourceTree = "<group>"; };
-		8301B8141D95494F00C5FF3D /* Attachment+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Attachment+CoreDataClass.h"; sourceTree = "<group>"; };
-		8301B8151D95494F00C5FF3D /* Attachment+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Attachment+CoreDataClass.m"; sourceTree = "<group>"; };
-		8301B8161D95494F00C5FF3D /* Attachment+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Attachment+CoreDataProperties.h"; sourceTree = "<group>"; };
-		8301B8171D95494F00C5FF3D /* Attachment+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Attachment+CoreDataProperties.m"; sourceTree = "<group>"; };
-		8301B8181D95494F00C5FF3D /* Request+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Request+CoreDataClass.h"; sourceTree = "<group>"; };
-		8301B8191D95494F00C5FF3D /* Request+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Request+CoreDataClass.m"; sourceTree = "<group>"; };
-		8301B81A1D95494F00C5FF3D /* Request+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Request+CoreDataProperties.h"; sourceTree = "<group>"; };
-		8301B81B1D95494F00C5FF3D /* Request+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Request+CoreDataProperties.m"; sourceTree = "<group>"; };
-		8301B81C1D95494F00C5FF3D /* Balance_log+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Balance_log+CoreDataClass.h"; sourceTree = "<group>"; };
-		8301B81D1D95494F00C5FF3D /* Balance_log+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Balance_log+CoreDataClass.m"; sourceTree = "<group>"; };
-		8301B81E1D95494F00C5FF3D /* Balance_log+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Balance_log+CoreDataProperties.h"; sourceTree = "<group>"; };
-		8301B81F1D95494F00C5FF3D /* Balance_log+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Balance_log+CoreDataProperties.m"; sourceTree = "<group>"; };
-		8301B8381D954D8000C5FF3D /* User+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataClass.h"; sourceTree = "<group>"; };
-		8301B8391D954D8000C5FF3D /* User+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataClass.m"; sourceTree = "<group>"; };
-		8301B83A1D954D8000C5FF3D /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
-		8301B83B1D954D8000C5FF3D /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
-		8301B83C1D954D8000C5FF3D /* Achievement+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Achievement+CoreDataClass.h"; sourceTree = "<group>"; };
-		8301B83D1D954D8000C5FF3D /* Achievement+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Achievement+CoreDataClass.m"; sourceTree = "<group>"; };
-		8301B83E1D954D8000C5FF3D /* Achievement+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Achievement+CoreDataProperties.h"; sourceTree = "<group>"; };
-		8301B83F1D954D8000C5FF3D /* Achievement+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Achievement+CoreDataProperties.m"; sourceTree = "<group>"; };
-		8301B8401D954D8000C5FF3D /* Task+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Task+CoreDataProperties.h"; sourceTree = "<group>"; };
-		8301B8411D954D8000C5FF3D /* Task+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Task+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8320E4B21D9577C900AC7E29 /* AchievementMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AchievementMO.h; path = rostelecomChampion/AchievementMO.h; sourceTree = "<group>"; };
+		8320E4B31D9577C900AC7E29 /* AchievementMO+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AchievementMO+CoreDataClass.m"; path = "rostelecomChampion/AchievementMO+CoreDataClass.m"; sourceTree = "<group>"; };
+		8320E4B41D9577C900AC7E29 /* AchievementMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AchievementMO+CoreDataProperties.h"; path = "rostelecomChampion/AchievementMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8320E4B51D9577C900AC7E29 /* AchievementMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AchievementMO+CoreDataProperties.m"; path = "rostelecomChampion/AchievementMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8320E4B61D9577C900AC7E29 /* TaskMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaskMO.h; path = rostelecomChampion/TaskMO.h; sourceTree = "<group>"; };
+		8320E4B71D9577C900AC7E29 /* TaskMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaskMO.m; path = rostelecomChampion/TaskMO.m; sourceTree = "<group>"; };
+		8320E4B81D9577C900AC7E29 /* TaskMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TaskMO+CoreDataProperties.h"; path = "rostelecomChampion/TaskMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8320E4B91D9577C900AC7E29 /* TaskMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TaskMO+CoreDataProperties.m"; path = "rostelecomChampion/TaskMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8320E4BA1D9577C900AC7E29 /* AttachmentMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttachmentMO.h; path = rostelecomChampion/AttachmentMO.h; sourceTree = "<group>"; };
+		8320E4BB1D9577C900AC7E29 /* AttachmentMO+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AttachmentMO+CoreDataClass.m"; path = "rostelecomChampion/AttachmentMO+CoreDataClass.m"; sourceTree = "<group>"; };
+		8320E4BC1D9577C900AC7E29 /* AttachmentMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AttachmentMO+CoreDataProperties.h"; path = "rostelecomChampion/AttachmentMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8320E4BD1D9577C900AC7E29 /* AttachmentMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AttachmentMO+CoreDataProperties.m"; path = "rostelecomChampion/AttachmentMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8320E4BE1D9577C900AC7E29 /* UserMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserMO.h; path = rostelecomChampion/UserMO.h; sourceTree = "<group>"; };
+		8320E4BF1D9577C900AC7E29 /* UserMO+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UserMO+CoreDataClass.m"; path = "rostelecomChampion/UserMO+CoreDataClass.m"; sourceTree = "<group>"; };
+		8320E4C01D9577C900AC7E29 /* UserMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UserMO+CoreDataProperties.h"; path = "rostelecomChampion/UserMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8320E4C11D9577C900AC7E29 /* UserMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UserMO+CoreDataProperties.m"; path = "rostelecomChampion/UserMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8320E4C21D9577C900AC7E29 /* DepartmentMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepartmentMO.h; path = rostelecomChampion/DepartmentMO.h; sourceTree = "<group>"; };
+		8320E4C31D9577C900AC7E29 /* DepartmentMO+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DepartmentMO+CoreDataClass.m"; path = "rostelecomChampion/DepartmentMO+CoreDataClass.m"; sourceTree = "<group>"; };
+		8320E4C41D9577C900AC7E29 /* DepartmentMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DepartmentMO+CoreDataProperties.h"; path = "rostelecomChampion/DepartmentMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8320E4C51D9577C900AC7E29 /* DepartmentMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DepartmentMO+CoreDataProperties.m"; path = "rostelecomChampion/DepartmentMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8320E4C61D9577C900AC7E29 /* RequestMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RequestMO.h; path = rostelecomChampion/RequestMO.h; sourceTree = "<group>"; };
+		8320E4C71D9577C900AC7E29 /* RequestMO+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RequestMO+CoreDataClass.m"; path = "rostelecomChampion/RequestMO+CoreDataClass.m"; sourceTree = "<group>"; };
+		8320E4C81D9577C900AC7E29 /* RequestMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RequestMO+CoreDataProperties.h"; path = "rostelecomChampion/RequestMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8320E4C91D9577C900AC7E29 /* RequestMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RequestMO+CoreDataProperties.m"; path = "rostelecomChampion/RequestMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8320E4CA1D9577C900AC7E29 /* Balance_logMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Balance_logMO.h; path = rostelecomChampion/Balance_logMO.h; sourceTree = "<group>"; };
+		8320E4CB1D9577C900AC7E29 /* Balance_logMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Balance_logMO.m; path = rostelecomChampion/Balance_logMO.m; sourceTree = "<group>"; };
+		8320E4CC1D9577C900AC7E29 /* Balance_logMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Balance_logMO+CoreDataProperties.h"; path = "rostelecomChampion/Balance_logMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8320E4CD1D9577C900AC7E29 /* Balance_logMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Balance_logMO+CoreDataProperties.m"; path = "rostelecomChampion/Balance_logMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8320E4CE1D9577C900AC7E29 /* LevelMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LevelMO.h; path = rostelecomChampion/LevelMO.h; sourceTree = "<group>"; };
+		8320E4CF1D9577C900AC7E29 /* LevelMO+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "LevelMO+CoreDataClass.m"; path = "rostelecomChampion/LevelMO+CoreDataClass.m"; sourceTree = "<group>"; };
+		8320E4D01D9577C900AC7E29 /* LevelMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "LevelMO+CoreDataProperties.h"; path = "rostelecomChampion/LevelMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8320E4D11D9577C900AC7E29 /* LevelMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "LevelMO+CoreDataProperties.m"; path = "rostelecomChampion/LevelMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9AB13C9D913FD74E3A78F38D /* Pods-rostelecomChampion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rostelecomChampion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rostelecomChampion/Pods-rostelecomChampion.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,18 +92,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C7CC2489883A844E184A4D /* libPods-rostelecomChampion.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E8A8788A343B72F42D8FB5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AB13C9D913FD74E3A78F38D /* Pods-rostelecomChampion.debug.xcconfig */,
+				7448FA7F4E22427DAC178489 /* Pods-rostelecomChampion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8301B73A1D95361E00C5FF3D = {
 			isa = PBXGroup;
 			children = (
 				8301B7841D9540CA00C5FF3D /* models */,
 				8301B7451D95361F00C5FF3D /* rostelecomChampion */,
 				8301B7441D95361F00C5FF3D /* Products */,
+				6E8A8788A343B72F42D8FB5F /* Pods */,
+				BCF710FD36CE6B1CEEC8D631 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,36 +158,48 @@
 		8301B7841D9540CA00C5FF3D /* models */ = {
 			isa = PBXGroup;
 			children = (
-				8301B8381D954D8000C5FF3D /* User+CoreDataClass.h */,
-				8301B8391D954D8000C5FF3D /* User+CoreDataClass.m */,
-				8301B83A1D954D8000C5FF3D /* User+CoreDataProperties.h */,
-				8301B83B1D954D8000C5FF3D /* User+CoreDataProperties.m */,
-				8301B83C1D954D8000C5FF3D /* Achievement+CoreDataClass.h */,
-				8301B83D1D954D8000C5FF3D /* Achievement+CoreDataClass.m */,
-				8301B83E1D954D8000C5FF3D /* Achievement+CoreDataProperties.h */,
-				8301B83F1D954D8000C5FF3D /* Achievement+CoreDataProperties.m */,
-				8301B8401D954D8000C5FF3D /* Task+CoreDataProperties.h */,
-				8301B8411D954D8000C5FF3D /* Task+CoreDataProperties.m */,
-				8301B80C1D95494F00C5FF3D /* Task+CoreDataClass.h */,
-				8301B80D1D95494F00C5FF3D /* Task+CoreDataClass.m */,
-				8301B8101D95494F00C5FF3D /* Department+CoreDataClass.h */,
-				8301B8111D95494F00C5FF3D /* Department+CoreDataClass.m */,
-				8301B8121D95494F00C5FF3D /* Department+CoreDataProperties.h */,
-				8301B8131D95494F00C5FF3D /* Department+CoreDataProperties.m */,
-				8301B8141D95494F00C5FF3D /* Attachment+CoreDataClass.h */,
-				8301B8151D95494F00C5FF3D /* Attachment+CoreDataClass.m */,
-				8301B8161D95494F00C5FF3D /* Attachment+CoreDataProperties.h */,
-				8301B8171D95494F00C5FF3D /* Attachment+CoreDataProperties.m */,
-				8301B8181D95494F00C5FF3D /* Request+CoreDataClass.h */,
-				8301B8191D95494F00C5FF3D /* Request+CoreDataClass.m */,
-				8301B81A1D95494F00C5FF3D /* Request+CoreDataProperties.h */,
-				8301B81B1D95494F00C5FF3D /* Request+CoreDataProperties.m */,
-				8301B81C1D95494F00C5FF3D /* Balance_log+CoreDataClass.h */,
-				8301B81D1D95494F00C5FF3D /* Balance_log+CoreDataClass.m */,
-				8301B81E1D95494F00C5FF3D /* Balance_log+CoreDataProperties.h */,
-				8301B81F1D95494F00C5FF3D /* Balance_log+CoreDataProperties.m */,
+				8320E4B21D9577C900AC7E29 /* AchievementMO.h */,
+				8320E4B31D9577C900AC7E29 /* AchievementMO+CoreDataClass.m */,
+				8320E4B41D9577C900AC7E29 /* AchievementMO+CoreDataProperties.h */,
+				8320E4B51D9577C900AC7E29 /* AchievementMO+CoreDataProperties.m */,
+				8320E4B61D9577C900AC7E29 /* TaskMO.h */,
+				8320E4B71D9577C900AC7E29 /* TaskMO.m */,
+				8320E4B81D9577C900AC7E29 /* TaskMO+CoreDataProperties.h */,
+				8320E4B91D9577C900AC7E29 /* TaskMO+CoreDataProperties.m */,
+				8320E4BA1D9577C900AC7E29 /* AttachmentMO.h */,
+				8320E4BB1D9577C900AC7E29 /* AttachmentMO+CoreDataClass.m */,
+				8320E4BC1D9577C900AC7E29 /* AttachmentMO+CoreDataProperties.h */,
+				8320E4BD1D9577C900AC7E29 /* AttachmentMO+CoreDataProperties.m */,
+				8320E4BE1D9577C900AC7E29 /* UserMO.h */,
+				8320E4BF1D9577C900AC7E29 /* UserMO+CoreDataClass.m */,
+				8320E4C01D9577C900AC7E29 /* UserMO+CoreDataProperties.h */,
+				8320E4C11D9577C900AC7E29 /* UserMO+CoreDataProperties.m */,
+				8320E4C21D9577C900AC7E29 /* DepartmentMO.h */,
+				8320E4C31D9577C900AC7E29 /* DepartmentMO+CoreDataClass.m */,
+				8320E4C41D9577C900AC7E29 /* DepartmentMO+CoreDataProperties.h */,
+				8320E4C51D9577C900AC7E29 /* DepartmentMO+CoreDataProperties.m */,
+				8320E4C61D9577C900AC7E29 /* RequestMO.h */,
+				8320E4C71D9577C900AC7E29 /* RequestMO+CoreDataClass.m */,
+				8320E4C81D9577C900AC7E29 /* RequestMO+CoreDataProperties.h */,
+				8320E4C91D9577C900AC7E29 /* RequestMO+CoreDataProperties.m */,
+				8320E4CA1D9577C900AC7E29 /* Balance_logMO.h */,
+				8320E4CB1D9577C900AC7E29 /* Balance_logMO.m */,
+				8320E4CC1D9577C900AC7E29 /* Balance_logMO+CoreDataProperties.h */,
+				8320E4CD1D9577C900AC7E29 /* Balance_logMO+CoreDataProperties.m */,
+				8320E4CE1D9577C900AC7E29 /* LevelMO.h */,
+				8320E4CF1D9577C900AC7E29 /* LevelMO+CoreDataClass.m */,
+				8320E4D01D9577C900AC7E29 /* LevelMO+CoreDataProperties.h */,
+				8320E4D11D9577C900AC7E29 /* LevelMO+CoreDataProperties.m */,
 			);
 			name = models;
+			sourceTree = "<group>";
+		};
+		BCF710FD36CE6B1CEEC8D631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				139E688A929E37A81D8513C5 /* libPods-rostelecomChampion.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8301B75D1D95361F00C5FF3D /* Build configuration list for PBXNativeTarget "rostelecomChampion" */;
 			buildPhases = (
+				75EABF894B30FCD2DBB84573 /* Check Pods Manifest.lock */,
 				8301B73F1D95361E00C5FF3D /* Sources */,
 				8301B7401D95361E00C5FF3D /* Frameworks */,
 				8301B7411D95361E00C5FF3D /* Resources */,
+				C6DAC808A841198E7C1B82A2 /* Embed Pods Frameworks */,
+				4FEB5D12A3C9DC61BF2F922C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,30 +272,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FEB5D12A3C9DC61BF2F922C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rostelecomChampion/Pods-rostelecomChampion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75EABF894B30FCD2DBB84573 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6DAC808A841198E7C1B82A2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rostelecomChampion/Pods-rostelecomChampion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8301B73F1D95361E00C5FF3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8320E4DA1D9577C900AC7E29 /* DepartmentMO+CoreDataClass.m in Sources */,
+				8320E4D91D9577C900AC7E29 /* UserMO+CoreDataProperties.m in Sources */,
+				8320E4D41D9577C900AC7E29 /* TaskMO.m in Sources */,
+				8320E4DF1D9577C900AC7E29 /* Balance_logMO+CoreDataProperties.m in Sources */,
+				8320E4DD1D9577C900AC7E29 /* RequestMO+CoreDataProperties.m in Sources */,
 				8301B74E1D95361F00C5FF3D /* ViewController.m in Sources */,
-				8301B8251D95494F00C5FF3D /* Department+CoreDataProperties.m in Sources */,
-				8301B8421D954D8000C5FF3D /* User+CoreDataClass.m in Sources */,
-				8301B8441D954D8000C5FF3D /* Achievement+CoreDataClass.m in Sources */,
-				8301B8221D95494F00C5FF3D /* Task+CoreDataClass.m in Sources */,
+				8320E4D31D9577C900AC7E29 /* AchievementMO+CoreDataProperties.m in Sources */,
+				8320E4DB1D9577C900AC7E29 /* DepartmentMO+CoreDataProperties.m in Sources */,
+				8320E4D61D9577C900AC7E29 /* AttachmentMO+CoreDataClass.m in Sources */,
+				8320E4D71D9577C900AC7E29 /* AttachmentMO+CoreDataProperties.m in Sources */,
+				8320E4D21D9577C900AC7E29 /* AchievementMO+CoreDataClass.m in Sources */,
+				8320E4DE1D9577C900AC7E29 /* Balance_logMO.m in Sources */,
+				8320E4D51D9577C900AC7E29 /* TaskMO+CoreDataProperties.m in Sources */,
 				8301B74B1D95361F00C5FF3D /* AppDelegate.m in Sources */,
-				8301B8461D954D8000C5FF3D /* Task+CoreDataProperties.m in Sources */,
-				8301B8261D95494F00C5FF3D /* Attachment+CoreDataClass.m in Sources */,
+				8320E4DC1D9577C900AC7E29 /* RequestMO+CoreDataClass.m in Sources */,
 				8301B7481D95361F00C5FF3D /* main.m in Sources */,
-				8301B82B1D95494F00C5FF3D /* Balance_log+CoreDataProperties.m in Sources */,
 				8301B8071D9546D000C5FF3D /* ConnectionService.m in Sources */,
-				8301B8281D95494F00C5FF3D /* Request+CoreDataClass.m in Sources */,
-				8301B82A1D95494F00C5FF3D /* Balance_log+CoreDataClass.m in Sources */,
-				8301B8241D95494F00C5FF3D /* Department+CoreDataClass.m in Sources */,
-				8301B8291D95494F00C5FF3D /* Request+CoreDataProperties.m in Sources */,
-				8301B8431D954D8000C5FF3D /* User+CoreDataProperties.m in Sources */,
+				8320E4D81D9577C900AC7E29 /* UserMO+CoreDataClass.m in Sources */,
+				8320E4E11D9577C900AC7E29 /* LevelMO+CoreDataProperties.m in Sources */,
+				8320E4E01D9577C900AC7E29 /* LevelMO+CoreDataClass.m in Sources */,
 				8301B7541D95361F00C5FF3D /* rostelecomChampion.xcdatamodeld in Sources */,
-				8301B8451D954D8000C5FF3D /* Achievement+CoreDataProperties.m in Sources */,
-				8301B8271D95494F00C5FF3D /* Attachment+CoreDataProperties.m in Sources */,
 				8301B8041D9545E600C5FF3D /* AppServeceProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +462,7 @@
 		};
 		8301B75E1D95361F00C5FF3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB13C9D913FD74E3A78F38D /* Pods-rostelecomChampion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W42R9UA43W;
@@ -387,6 +475,7 @@
 		};
 		8301B75F1D95361F00C5FF3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7448FA7F4E22427DAC178489 /* Pods-rostelecomChampion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W42R9UA43W;
@@ -416,6 +505,7 @@
 				8301B75F1D95361F00C5FF3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

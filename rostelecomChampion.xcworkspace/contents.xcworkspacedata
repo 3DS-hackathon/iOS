@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/danil/Documents/Programming &amp; HardCoding/rostelecomChampion/AchievementMO.h">
+   </FileRef>
+   <FileRef
+      location = "group:AchievementMO+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:AchievementMO+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:AchievementMO+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/danil/Documents/Programming &amp; HardCoding/rostelecomChampion/TaskMO.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/danil/Documents/Programming &amp; HardCoding/rostelecomChampion/TaskMO.m">
+   </FileRef>
+   <FileRef
+      location = "group:TaskMO+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:TaskMO+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/danil/Documents/Programming &amp; HardCoding/rostelecomChampion/AttachmentMO.h">
+   </FileRef>
+   <FileRef
+      location = "group:AttachmentMO+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:AttachmentMO+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:AttachmentMO+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/danil/Documents/Programming &amp; HardCoding/rostelecomChampion/UserMO.h">
+   </FileRef>
+   <FileRef
+      location = "group:UserMO+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:UserMO+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:UserMO+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/danil/Documents/Programming &amp; HardCoding/rostelecomChampion/DepartmentMO.h">
+   </FileRef>
+   <FileRef
+      location = "group:DepartmentMO+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:DepartmentMO+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:DepartmentMO+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/danil/Documents/Programming &amp; HardCoding/rostelecomChampion/RequestMO.h">
+   </FileRef>
+   <FileRef
+      location = "group:RequestMO+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:RequestMO+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:RequestMO+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/danil/Documents/Programming &amp; HardCoding/rostelecomChampion/Balance_logMO.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/danil/Documents/Programming &amp; HardCoding/rostelecomChampion/Balance_logMO.m">
+   </FileRef>
+   <FileRef
+      location = "group:Balance_logMO+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:Balance_logMO+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/danil/Documents/Programming &amp; HardCoding/rostelecomChampion/LevelMO.h">
+   </FileRef>
+   <FileRef
+      location = "group:LevelMO+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:LevelMO+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:LevelMO+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:rostelecomChampion.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
