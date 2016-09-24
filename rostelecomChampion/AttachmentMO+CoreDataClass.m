@@ -10,4 +10,20 @@
 #import "RequestMO.h"
 @implementation AttachmentMO
 
+-(instancetype)initWithDictionary:(NSDictionary *)dict{
+    
+    self = [super init];
+    self.file_name = dict[@"file_name"];
+    self.mime_type = dict[@"mime_type"];
+    self.path = dict [@"path"];
+    for (NSDictionary* req in dict[@"request"]){
+        
+        [self addRequestObject:[[RequestMO alloc] initWithDictionary:req]];
+
+    }
+    return self;
+}
+
+@dynamic image;
+
 @end

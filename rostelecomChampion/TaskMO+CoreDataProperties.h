@@ -34,6 +34,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)addAchievement:(NSSet<AchievementMO *> *)values;
 - (void)removeAchievement:(NSSet<AchievementMO *> *)values;
 
+- (void)addUserObject:(UserMO *)value;
+- (void)removeUserObject:(UserMO *)value;
+- (void)addUser:(NSSet<UserMO *> *)values;
+- (void)removeUser:(NSSet<UserMO *> *)values;
+
 @end
 
 NS_ASSUME_NONNULL_END

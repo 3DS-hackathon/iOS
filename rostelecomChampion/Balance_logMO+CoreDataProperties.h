@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSFetchRequest<Balance_logMO *> *)fetchRequest;
 
 @property (nullable, nonatomic, copy) NSString *action;
-@property (nullable, nonatomic, copy) NSString *delta_count;
+@property (nonatomic) NSInteger delta_count;
 @property (nullable, nonatomic, copy) NSString *desc;
 @property (nullable, nonatomic, retain) RequestMO *request;
 @property (nullable, nonatomic, retain) TaskMO *task;

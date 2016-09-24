@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AchievementMO : NSManagedObject
 
-@property(strong,nonatomic) UIImage* image;
+-(instancetype)initWithDictionary:(NSDictionary*)dict;
 
 @end
 

@@ -6,13 +6,13 @@
 //  Copyright © 2016 ds. All rights reserved.
 //
 
-#import "ViewController.h"
-
-@interface ViewController ()
+#import "LoginViewController.h"
+#import "AppServiceProvider.h"
+@interface LoginViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,4 +26,15 @@
 }
 
 
+- (IBAction)loginButtonPress:(id)sender {
+    
+    [[AppServiceProvider shared].connectionService login:_emailTextField.text password:_passwordTextField.text withBlock:^(bool succeded, NSDictionary * dict) {
+        if (succeded) {
+            
+        }
+        
+    }];
+    
+    
+}
 @end
