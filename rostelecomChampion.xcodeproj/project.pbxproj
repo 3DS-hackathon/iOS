@@ -34,6 +34,7 @@
 		83EDDC871D95A61B00799888 /* AppServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EDDC861D95A61B00799888 /* AppServiceProvider.m */; };
 		83EDDC8B1D95FE4C00799888 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EDDC8A1D95FE4C00799888 /* ProfileViewController.m */; };
 		83EDDC8E1D95FFE900799888 /* QuestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EDDC8D1D95FFE900799888 /* QuestTableViewCell.m */; };
+		83EDDC911D961BCD00799888 /* CoreDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EDDC901D961BCD00799888 /* CoreDataService.m */; };
 		B1C7CC2489883A844E184A4D /* libPods-rostelecomChampion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139E688A929E37A81D8513C5 /* libPods-rostelecomChampion.a */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,8 @@
 		83EDDC8A1D95FE4C00799888 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		83EDDC8C1D95FFE900799888 /* QuestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestTableViewCell.h; sourceTree = "<group>"; };
 		83EDDC8D1D95FFE900799888 /* QuestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestTableViewCell.m; sourceTree = "<group>"; };
+		83EDDC8F1D961BCD00799888 /* CoreDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataService.h; sourceTree = "<group>"; };
+		83EDDC901D961BCD00799888 /* CoreDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataService.m; sourceTree = "<group>"; };
 		9AB13C9D913FD74E3A78F38D /* Pods-rostelecomChampion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rostelecomChampion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rostelecomChampion/Pods-rostelecomChampion.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +153,8 @@
 				8301B8061D9546D000C5FF3D /* ConnectionService.m */,
 				83EDDC851D95A61B00799888 /* AppServiceProvider.h */,
 				83EDDC861D95A61B00799888 /* AppServiceProvider.m */,
+				83EDDC8F1D961BCD00799888 /* CoreDataService.h */,
+				83EDDC901D961BCD00799888 /* CoreDataService.m */,
 			);
 			path = rostelecomChampion;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 				8320E4D51D9577C900AC7E29 /* TaskMO+CoreDataProperties.m in Sources */,
 				8301B74B1D95361F00C5FF3D /* AppDelegate.m in Sources */,
 				8320E4DC1D9577C900AC7E29 /* RequestMO+CoreDataClass.m in Sources */,
+				83EDDC911D961BCD00799888 /* CoreDataService.m in Sources */,
 				8301B7481D95361F00C5FF3D /* main.m in Sources */,
 				8301B8071D9546D000C5FF3D /* ConnectionService.m in Sources */,
 				8320E4D81D9577C900AC7E29 /* UserMO+CoreDataClass.m in Sources */,

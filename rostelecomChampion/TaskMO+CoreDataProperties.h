@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TaskMO (CoreDataProperties)
 
-+ (NSFetchRequest<TaskMO *> *)fetchRequest;
+//+ (NSFetchRequest<TaskMO *> *)fetchRequest;
 
 @property (nonatomic) int16_t progress;
 @property (nonatomic) int16_t progress_user;

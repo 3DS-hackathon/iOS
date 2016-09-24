@@ -9,11 +9,12 @@
 #import "RequestMO.h"
 #import "AttachmentMO.h"
 #import "Balance_logMO.h"
+#import "AppServiceProvider.h"
 @implementation RequestMO
 
 -(instancetype)initWithDictionary:(NSDictionary *)dict {
     
-    self = [super init];
+//    self = [NSEntityDescription insertNewObjectForEntityForName:@"User" inManagedObjectContext:[[AppServiceProvider shared].coreDataService managedObjectContext]];
     self.delta_balance = [dict[@"delta_balance"] integerValue];
     self.status = dict [@"status"];
     self.type = dict [@"type"];

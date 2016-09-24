@@ -10,9 +10,9 @@
 
 @implementation DepartmentMO (CoreDataProperties)
 
-+ (NSFetchRequest<DepartmentMO *> *)fetchRequest {
-	return [[NSFetchRequest alloc] initWithEntityName:@"Department"];
-}
+//+ (NSFetchRequest<DepartmentMO *> *)fetchRequest {
+//	return [[NSFetchRequest alloc] initWithEntityName:@"Department"];
+//}
 
 @dynamic avatar;
 @dynamic desc;

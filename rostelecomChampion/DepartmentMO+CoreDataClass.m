@@ -8,14 +8,15 @@
 
 #import "DepartmentMO.h"
 #import "UserMO.h"
+#import "AppServiceProvider.h"
 @implementation DepartmentMO
 
 -(instancetype)initWithDictionary:(NSDictionary *)dict{
-    self = [super init];
+//    self = [NSEntityDescription insertNewObjectForEntityForName:@"Department" inManagedObjectContext:[[AppServiceProvider shared].coreDataService managedObjectContext]];
     self.avatar = dict[@"avatar"];
     self.desc = dict[@"desc"];
     self.name = dict[@"name"];
-    self.rating = [dict[@"ratin"] integerValue];
+    self.rating = [dict[@"rating"] integerValue];
     for (NSDictionary* user in dict[@"users"]){
         [self addUsersObject:[[UserMO alloc] initWithDictionary:user]];
     }

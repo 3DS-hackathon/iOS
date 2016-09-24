@@ -15,7 +15,7 @@
     </entity>
     <entity name="Balance_log" representedClassName="Balance_logMO" syncable="YES">
         <attribute name="action" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="delta_count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delta_count" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="request" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Request" inverseName="balance" inverseEntity="Request" syncable="YES"/>
         <relationship name="task" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Task" inverseName="balance" inverseEntity="Task" syncable="YES"/>

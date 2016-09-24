@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Balance_logMO (CoreDataProperties)
 
-+ (NSFetchRequest<Balance_logMO *> *)fetchRequest;
+//+ (NSFetchRequest<Balance_logMO *> *)fetchRequest;
 
 @property (nullable, nonatomic, copy) NSString *action;
 @property (nonatomic) NSInteger delta_count;

@@ -8,11 +8,13 @@
 
 #import "AttachmentMO.h"
 #import "RequestMO.h"
+#import "AppServiceProvider.h"
 @implementation AttachmentMO
 
 -(instancetype)initWithDictionary:(NSDictionary *)dict{
     
-    self = [super init];
+//    self = [NSEntityDescription insertNewObjectForEntityForName:@"Attachment" inManagedObjectContext:[[AppServiceProvider shared].coreDataService managedObjectContext]];
+    
     self.file_name = dict[@"file_name"];
     self.mime_type = dict[@"mime_type"];
     self.path = dict [@"path"];

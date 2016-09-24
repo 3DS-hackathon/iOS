@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UserMO (CoreDataProperties)
 
-+ (NSFetchRequest<UserMO *> *)fetchRequest;
+//+ (NSFetchRequest<UserMO *> *)fetchRequest;
 
 @property (nullable, nonatomic, copy) NSString *avatar;
 @property (nonatomic) int16_t balance;

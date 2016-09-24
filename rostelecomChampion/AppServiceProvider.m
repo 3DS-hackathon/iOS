@@ -12,6 +12,7 @@
 @interface AppServiceProvider()
 
 @property (nonatomic, strong, readwrite) ConnectionService *connectionService;
+@property (nonatomic, strong, readwrite) CoreDataService *coreDataService;
 
 @end
 
@@ -34,6 +35,7 @@
     self = [super init];
     
     [self setConnectionService:[[ConnectionService  alloc]init]];
+    [self setCoreDataService:[[CoreDataService  alloc]init]];
     
     return self;
     

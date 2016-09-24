@@ -13,9 +13,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AchievementMO : NSManagedObject
+@interface AchievementMO : NSObject
 
 -(instancetype)initWithDictionary:(NSDictionary*)dict;
+
+@property (nullable, nonatomic, copy) NSString *desc;
+@property (nullable, nonatomic, copy) NSString *name;
+@property (nullable, nonatomic, copy) NSString *pic;
+@property (nullable, nonatomic, retain) NSSet<TaskMO *> *tasks;
+@property (nullable, nonatomic, retain) NSSet<UserMO *> *users;
+
 
 @end
 

@@ -13,9 +13,24 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DepartmentMO : NSManagedObject
+@interface DepartmentMO : NSObject
 
 -(instancetype)initWithDictionary:(NSDictionary*)dict;
+
+@property (nullable, nonatomic, copy) NSString *avatar;
+@property (nullable, nonatomic, copy) NSString *desc;
+@property (nullable, nonatomic, copy) NSString *name;
+@property (nonatomic) int16_t rating;
+@property (nullable, nonatomic, retain) NSSet<UserMO *> *users;
+
+@end
+
+@interface DepartmentMO (CoreDataGeneratedAccessors)
+
+- (void)addUsersObject:(UserMO *)value;
+- (void)removeUsersObject:(UserMO *)value;
+- (void)addUsers:(NSSet<UserMO *> *)values;
+- (void)removeUsers:(NSSet<UserMO *> *)values;
 
 @end
 

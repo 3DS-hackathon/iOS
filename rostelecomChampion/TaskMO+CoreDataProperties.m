@@ -10,9 +10,9 @@
 
 @implementation TaskMO (CoreDataProperties)
 
-+ (NSFetchRequest<TaskMO *> *)fetchRequest {
-	return [[NSFetchRequest alloc] initWithEntityName:@"Task"];
-}
+//+ (NSFetchRequest<TaskMO *> *)fetchRequest {
+//	return [[NSFetchRequest alloc] initWithEntityName:@"Task"];
+//}
 
 @dynamic progress;
 @dynamic progress_user;

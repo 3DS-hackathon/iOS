@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DepartmentMO (CoreDataProperties)
 
-+ (NSFetchRequest<DepartmentMO *> *)fetchRequest;
+//+ (NSFetchRequest<DepartmentMO *> *)fetchRequest;
 
 @property (nullable, nonatomic, copy) NSString *avatar;
 @property (nullable, nonatomic, copy) NSString *desc;

@@ -80,7 +80,24 @@
 -(void)getMyUserwithBlock:(void (^)(bool, NSMutableArray *))block{
 
     NSString* query = [NSString stringWithFormat:@"/user"];
-    [self sendRequestAndGetArrayWithStr:query params:nil completionBlock:block];
+   
+    NSDictionary* dict = [NSDictionary dictionaryWithObjectsAndKeys:@"https://pp.vk.me/c629503/v629503932/26eab/h9bo2IEj_jQ.jpg",@"avatar",@(140),@"balance",@"zopa",@"email",@(31),@"rating",@"вертухай",@"role",
+                          @"Луговской Данилл",@"full_name",
+  @{
+    @"avatar":@"dsa",
+    @"desc":@"zopa",
+    
+    @"name":@"gavno",
+    @(231):@"rating"
+    },@"department",
+                          @{@"end_count":@(123),
+                            @"level":@(1),
+                            @"start_count":@(0),
+                            @"name":@"YO!",
+    },@"level",nil];
+    
+    block(YES,dict);
+//    [self sendRequestAndGetArrayWithStr:query params:nil completionBlock:block];
 
 }
 
@@ -88,6 +105,13 @@
     
     NSDictionary* params = [NSDictionary dictionaryWithObjectsAndKeys:@(limit),@"count", @(offset), @"offset", nil];
     NSString* query = [NSString stringWithFormat:@"/tasks"];
+    
+    NSArray* dict = @[@{
+                          @"name": @"zopa",
+                           @"desc":@"gavno gavokasksd",
+                          @"total_count":@(23123)
+                           }];
+    block(YES,dict);
     [self sendRequestAndGetArrayWithStr:query params:params completionBlock:block];
 
 }

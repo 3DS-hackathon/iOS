@@ -13,11 +13,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AttachmentMO : NSManagedObject
+@interface AttachmentMO : NSObject
 
 @property (nonatomic) UIImage* image;
 
 -(instancetype)initWithDictionary:(NSDictionary*) dict;
+@property (nullable, nonatomic, copy) NSString *file_name;
+@property (nullable, nonatomic, copy) NSString *mime_type;
+@property (nullable, nonatomic, copy) NSString *path;
+@property (nullable, nonatomic, retain) NSSet<RequestMO *> *request;
 
 @end
 

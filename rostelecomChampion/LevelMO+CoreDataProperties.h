@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LevelMO (CoreDataProperties)
 
-+ (NSFetchRequest<LevelMO *> *)fetchRequest;
+//+ (NSFetchRequest<LevelMO *> *)fetchRequest;
 
 @property (nonatomic) int16_t end_count;
 @property (nonatomic) int16_t level;

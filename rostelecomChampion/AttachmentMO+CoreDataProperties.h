@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AttachmentMO (CoreDataProperties)
 
-+ (NSFetchRequest<AttachmentMO *> *)fetchRequest;
+//+ (NSFetchRequest<AttachmentMO *> *)fetchRequest;
 
 @property (nullable, nonatomic, copy) NSString *file_name;
 @property (nullable, nonatomic, copy) NSString *mime_type;

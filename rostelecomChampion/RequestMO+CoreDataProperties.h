@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RequestMO (CoreDataProperties)
 
-+ (NSFetchRequest<RequestMO *> *)fetchRequest;
+//+ (NSFetchRequest<RequestMO *> *)fetchRequest;
 
 @property (nonatomic) int16_t delta_balance;
 @property (nullable, nonatomic, copy) NSString *status;

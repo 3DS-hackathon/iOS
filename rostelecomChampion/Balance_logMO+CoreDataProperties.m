@@ -10,9 +10,9 @@
 
 @implementation Balance_logMO (CoreDataProperties)
 
-+ (NSFetchRequest<Balance_logMO *> *)fetchRequest {
-	return [[NSFetchRequest alloc] initWithEntityName:@"Balance_log"];
-}
+//+ (NSFetchRequest<Balance_logMO *> *)fetchRequest {
+//	return [[NSFetchRequest alloc] initWithEntityName:@"Balance_log"];
+//}
 
 @dynamic action;
 @dynamic delta_count;

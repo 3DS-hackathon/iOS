@@ -13,7 +13,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Balance_logMO : NSManagedObject
+@interface Balance_logMO : NSObject
+
+@property (nullable, nonatomic, copy) NSString *action;
+@property (nonatomic) NSInteger delta_count;
+@property (nullable, nonatomic, copy) NSString *desc;
+@property (nullable, nonatomic, retain) RequestMO *request;
+@property (nullable, nonatomic, retain) TaskMO *task;
 
 -(instancetype)initWithDictionary:(NSDictionary*)dict;
 

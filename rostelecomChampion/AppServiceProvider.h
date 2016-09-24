@@ -8,11 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "ConnectionService.h"
-
+#import "CoreDataService.h"
 @interface AppServiceProvider : NSObject
 
-@property (nonatomic, strong, readonly) ConnectionService *connectionService;
+@property (nonatomic, strong, readonly) CoreDataService *coreDataService;
 
+@property (nonatomic, strong, readonly) ConnectionService *connectionService;
 + (AppServiceProvider *)shared;
 
 + (instancetype)alloc __attribute__((unavailable("alloc not available, call shared instead")));

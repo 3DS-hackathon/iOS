@@ -10,9 +10,9 @@
 
 @implementation AchievementMO (CoreDataProperties)
 
-+ (NSFetchRequest<AchievementMO *> *)fetchRequest {
-	return [[NSFetchRequest alloc] initWithEntityName:@"Achievement"];
-}
+//+ (NSFetchRequest<AchievementMO *> *)fetchRequest {
+//	return [[NSFetchRequest alloc] initWithEntityName:@"Achievement"];
+//}
 
 @dynamic desc;
 @dynamic name;

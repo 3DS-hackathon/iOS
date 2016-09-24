@@ -10,10 +10,12 @@
 #import "AchievementMO.h"
 #import "Balance_logMO.h"
 #import "UserMO.h"
+#import "AppServiceProvider.h"
+
 @implementation TaskMO
 
 -(instancetype) initWithDictionary:(NSDictionary*)dict{
-    self = [super init];
+//    self = [NSEntityDescription insertNewObjectForEntityForName:@"Task" inManagedObjectContext:[[AppServiceProvider shared].coreDataService managedObjectContext]];
     self.progress = [dict[@"progress"] integerValue];
     self.progress_user = [dict[@"progress_user"] integerValue];
     self.desc = dict[@"desc"];
@@ -27,7 +29,7 @@
     
     for (NSDictionary* user in dict[@"users"]){
         
-        [self addUserObject:[[UserMO alloc] initWithDictionary:user]];
+//        [self addUserObject:[[UserMO alloc] initWithDictionary:user]];
     }
     
     self.balance = [[Balance_logMO alloc]initWithDictionary:dict[@"balacne"]];

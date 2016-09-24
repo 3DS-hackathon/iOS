@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AchievementMO (CoreDataProperties)
 
-+ (NSFetchRequest<AchievementMO *> *)fetchRequest;
+//+ (NSFetchRequest<AchievementMO *> *)fetchRequest;
 
 @property (nullable, nonatomic, copy) NSString *desc;
 @property (nullable, nonatomic, copy) NSString *name;

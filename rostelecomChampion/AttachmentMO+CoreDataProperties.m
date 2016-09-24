@@ -9,10 +9,10 @@
 #import "AttachmentMO+CoreDataProperties.h"
 
 @implementation AttachmentMO (CoreDataProperties)
-
-+ (NSFetchRequest<AttachmentMO *> *)fetchRequest {
-	return [[NSFetchRequest alloc] initWithEntityName:@"Attachment"];
-}
+//
+//+ (NSFetchRequest<AttachmentMO *> *)fetchRequest {
+//	return [[NSFetchRequest alloc] initWithEntityName:@"Attachment"];
+//}
 
 @dynamic file_name;
 @dynamic mime_type;

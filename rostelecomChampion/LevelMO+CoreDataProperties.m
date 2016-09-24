@@ -10,9 +10,9 @@
 
 @implementation LevelMO (CoreDataProperties)
 
-+ (NSFetchRequest<LevelMO *> *)fetchRequest {
-	return [[NSFetchRequest alloc] initWithEntityName:@"Level"];
-}
+//+ (NSFetchRequest<LevelMO *> *)fetchRequest {
+//	return [[NSFetchRequest alloc] initWithEntityName:@"Level"];
+//}
 
 @dynamic end_count;
 @dynamic level;

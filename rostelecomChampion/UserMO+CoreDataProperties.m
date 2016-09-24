@@ -10,9 +10,9 @@
 
 @implementation UserMO (CoreDataProperties)
 
-+ (NSFetchRequest<UserMO *> *)fetchRequest {
-	return [[NSFetchRequest alloc] initWithEntityName:@"User"];
-}
+//+ (NSFetchRequest<UserMO *> *)fetchRequest {
+//	return [[NSFetchRequest alloc] initWithEntityName:@"User"];
+//}
 
 @dynamic avatar;
 @dynamic balance;

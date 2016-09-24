@@ -10,9 +10,9 @@
 
 @implementation RequestMO (CoreDataProperties)
 
-+ (NSFetchRequest<RequestMO *> *)fetchRequest {
-	return [[NSFetchRequest alloc] initWithEntityName:@"Request"];
-}
+////+ (NSFetchRequest<RequestMO *> *)fetchRequest {
+//	return [[NSFetchRequest alloc] initWithEntityName:@"Request"];
+//}
 
 @dynamic delta_balance;
 @dynamic status;
