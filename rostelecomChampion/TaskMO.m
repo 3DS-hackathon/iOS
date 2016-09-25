@@ -17,7 +17,19 @@
 -(instancetype) initWithDictionary:(NSDictionary*)dict{
 //    self = [NSEntityDescription insertNewObjectForEntityForName:@"Task" inManagedObjectContext:[[AppServiceProvider shared].coreDataService managedObjectContext]];
     
-    self.progress = ![[NSNull null] isEqual: dict[@"progress"]] || dict[@"progress"] != 0  ? [dict[@"progress"] integerValue] : 0;
+
+    @try {
+        
+        if ([NSNull null] != dict[@"progress"] ){
+            self.progress = dict[@"progress"];
+        }
+    
+    } @catch (NSException *exception) {
+        
+    } @finally {
+        
+    }
+     //![[NSNull null] isEqual: dict[@"progress"]] || dict[@"progress"] != 0  ? [dict[@"progress"] intValue] : 0;
 //    self.progress_user = [dict[@"progress_user"] integerValue];
     self.desc = dict[@"desc"];
     self.name = dict[@"name"];

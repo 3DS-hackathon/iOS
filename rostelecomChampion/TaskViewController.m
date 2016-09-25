@@ -17,15 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initTask:_task];
-    [[AppServiceProvider shared].connectionService getTaskById:_task.id withBlock:^(BOOL succeded, NSMutableArray * dic) {
-        TaskMO* newTask =[[TaskMO alloc] initWithDictionary:dic];
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self initTask:newTask];
-            
-        });
-        _task = newTask;
-        
-    }];
+//    [[AppServiceProvider shared].connectionService getTaskById:_task.id withBlock:^(BOOL succeded, NSMutableArray * dic) {
+//        TaskMO* newTask =[[TaskMO alloc] initWithDictionary:dic];
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            [self initTask:newTask];
+//            
+//        });
+//        _task = newTask;
+//        
+//    }];
 }
 -(void)viewDidAppear:(BOOL)animated{
    

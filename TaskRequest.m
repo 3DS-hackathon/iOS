@@ -24,19 +24,19 @@
         [[AppServiceProvider shared].connectionService postAttachment:attach withBlock:^(BOOL succeded, NSDictionary * dict) {
             if (succeded){
                 
-                [attachmentsIds addObject:dict[@"file_id"]];
+                [attachmentsIds addObject:dict[@"id"]];
                 
             }
             if ([attachmentsIds count] == [_attachments count]){
                 
-                NSDictionary* dict = @{
-                                       @"task":@(self.task_id),
+                NSDictionary* diction = @{
+                                       @"task_id":@(self.task_id),
                                        @"attachments":attachmentsIds
                                        };
-                [[AppServiceProvider shared].connectionService postRequest:dict withBlock:^(BOOL succeded, NSDictionary * dict) {
-                    
+                [[AppServiceProvider shared].connectionService postRequest:diction withBlock:^(BOOL succeded, NSDictionary * dict) {
+                    block(succeded, dict);
                 }];
-                
+
                 
             }
             

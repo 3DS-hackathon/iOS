@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //+ (NSFetchRequest<TaskMO *> *)fetchRequest;
 
-@property (nonatomic) int16_t progress;
+@property (nonatomic) NSInteger progress;
 @property (nonatomic) int16_t progress_user;
 @property (nullable, nonatomic, copy) NSString *desc;
 @property (nullable, nonatomic, copy) NSString *name;

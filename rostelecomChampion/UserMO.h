@@ -33,4 +33,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 NS_ASSUME_NONNULL_END
 
-#import "UserMO+CoreDataProperties.h"
+//#import "UserMO+CoreDataProperties.h"

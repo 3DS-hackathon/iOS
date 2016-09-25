@@ -62,7 +62,8 @@
     
     NSString* query =  [host stringByAppendingString: @"api/attach"];
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    
+    [manager.requestSerializer setValue:accessToken ? [@"Token " stringByAppendingString:accessToken]:@"Token" forHTTPHeaderField:@"Authorization"];
+
     [manager POST:query parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
         [formData appendPartWithFileData:UIImagePNGRepresentation(attachModel.image)
                                     name:@"file"

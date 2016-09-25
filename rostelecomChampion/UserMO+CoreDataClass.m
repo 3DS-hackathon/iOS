@@ -39,8 +39,8 @@
     self.role = dict[@"role"];
     self.department = dict[@"department"] != [NSNull null] ?  [[DepartmentMO alloc] initWithDictionary:dict[@"department"]] : nil;
     self.level = [[LevelMO alloc] initWithDictionary:dict[@"level"]];
-    if (dict[@"achivement"]){
-        for (NSDictionary* diction in dict[@"achivement"]){
+    if ([dict[@"achievements"] count]){
+        for (NSDictionary* diction in dict[@"achievements"]){
             [self.achivement addObject:[[AchievementMO alloc] initWithDictionary:diction]];
         }
     }

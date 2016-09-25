@@ -120,6 +120,18 @@ typedef enum profileState
  }
  */
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+   
+    switch (State) {
+        case allQuest:
+            return [tasks count];
+            break;
+        case myQuest:
+            return [tasks count];
+        case achievement:
+            return [user.achivement count];
+        default:
+            break;
+    }
     if (State == allQuest){
         return [tasks count];
     }else if (State == myQuest){
@@ -137,6 +149,8 @@ typedef enum profileState
         case myQuest:
             return 150;
             break;
+        case achievement:
+            return 200;
         default:
             return 100;
     }
@@ -177,7 +191,6 @@ typedef enum profileState
             break;
         }
         case myQuest:{
-            //            [self.questTableView registerClass:[MyQuestTableViewCell self] forCellReuseIdentifier:@"myQuestCell"];
             
             task = user.tasks[indexPath.row];
             
@@ -218,6 +231,8 @@ typedef enum profileState
             break;
         }
         case achievement:{
+//            [self.questTableView registerClass:[AchievementTableViewCell self] forCellReuseIdentifier:@"achievementCell"];
+
             AchievementMO* achieve = user.achivement[indexPath.row];
             cell = [tableView dequeueReusableCellWithIdentifier:@"achievementCell"];
             if (achieve.pic != [NSNull null]){

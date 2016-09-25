@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(instancetype) initWithDictionary:(NSDictionary*)dict;
 @property (nonatomic) int16_t id;
-@property (nonatomic) int16_t progress;
+@property (nonatomic) NSInteger progress;
 @property (nonatomic) int16_t progress_user;
 @property (nonatomic) int16_t expirience;
 @property (nonatomic) int16_t price;
