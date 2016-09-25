@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *desc;
 @property (nullable, nonatomic, copy) NSString *name;
 @property (nonatomic) int16_t rating;
-@property (nullable, nonatomic, retain) NSSet<UserMO *> *users;
+@property (nullable, nonatomic, retain) NSMutableArray<UserMO *> *users;
 
 @end
 

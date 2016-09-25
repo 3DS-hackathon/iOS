@@ -20,12 +20,11 @@
     self.path = dict [@"path"];
     for (NSDictionary* req in dict[@"request"]){
         
-        [self addRequestObject:[[RequestMO alloc] initWithDictionary:req]];
+        [self.request addObject:[[RequestMO alloc] initWithDictionary:req]];
 
     }
     return self;
 }
 
-@dynamic image;
 
 @end

@@ -7,7 +7,7 @@
         <relationship name="tasks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Task" inverseName="achievement" inverseEntity="Task" syncable="YES"/>
         <relationship name="users" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="achivement" inverseEntity="User" syncable="YES"/>
     </entity>
-    <entity name="Attachment" representedClassName="AttachmentMO" syncable="YES">
+    <entity name="Attachment" representedClassName="" syncable="YES">
         <attribute name="file_name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="mime_type" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>

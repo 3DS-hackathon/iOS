@@ -31,6 +31,11 @@
 		8320E4DF1D9577C900AC7E29 /* Balance_logMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4CD1D9577C900AC7E29 /* Balance_logMO+CoreDataProperties.m */; };
 		8320E4E01D9577C900AC7E29 /* LevelMO+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4CF1D9577C900AC7E29 /* LevelMO+CoreDataClass.m */; };
 		8320E4E11D9577C900AC7E29 /* LevelMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320E4D11D9577C900AC7E29 /* LevelMO+CoreDataProperties.m */; };
+		83213F131D96922600FEF696 /* TaskStatusMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 83213F121D96922600FEF696 /* TaskStatusMO.m */; };
+		83213F171D96AB9B00FEF696 /* MyQuestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83213F151D96AB9B00FEF696 /* MyQuestTableViewCell.m */; };
+		839742381D9729C300A973A0 /* TaskRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 839742371D9729C300A973A0 /* TaskRequest.m */; };
+		8397423B1D973A8B00A973A0 /* AchievementTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8397423A1D973A8B00A973A0 /* AchievementTableViewCell.m */; };
+		8397423E1D9742DC00A973A0 /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8397423D1D9742DC00A973A0 /* TaskViewController.m */; };
 		83EDDC871D95A61B00799888 /* AppServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EDDC861D95A61B00799888 /* AppServiceProvider.m */; };
 		83EDDC8B1D95FE4C00799888 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EDDC8A1D95FE4C00799888 /* ProfileViewController.m */; };
 		83EDDC8E1D95FFE900799888 /* QuestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EDDC8D1D95FFE900799888 /* QuestTableViewCell.m */; };
@@ -86,6 +91,17 @@
 		8320E4CF1D9577C900AC7E29 /* LevelMO+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "LevelMO+CoreDataClass.m"; path = "rostelecomChampion/LevelMO+CoreDataClass.m"; sourceTree = "<group>"; };
 		8320E4D01D9577C900AC7E29 /* LevelMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "LevelMO+CoreDataProperties.h"; path = "rostelecomChampion/LevelMO+CoreDataProperties.h"; sourceTree = "<group>"; };
 		8320E4D11D9577C900AC7E29 /* LevelMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "LevelMO+CoreDataProperties.m"; path = "rostelecomChampion/LevelMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		83213F111D96922600FEF696 /* TaskStatusMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskStatusMO.h; sourceTree = "<group>"; };
+		83213F121D96922600FEF696 /* TaskStatusMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskStatusMO.m; sourceTree = "<group>"; };
+		83213F141D96AB9B00FEF696 /* MyQuestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQuestTableViewCell.h; sourceTree = "<group>"; };
+		83213F151D96AB9B00FEF696 /* MyQuestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQuestTableViewCell.m; sourceTree = "<group>"; };
+		839742361D9729C300A973A0 /* TaskRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskRequest.h; sourceTree = "<group>"; };
+		839742371D9729C300A973A0 /* TaskRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskRequest.m; sourceTree = "<group>"; };
+		839742391D973A8B00A973A0 /* AchievementTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementTableViewCell.h; sourceTree = "<group>"; };
+		8397423A1D973A8B00A973A0 /* AchievementTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementTableViewCell.m; sourceTree = "<group>"; };
+		8397423C1D9742DC00A973A0 /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewController.h; sourceTree = "<group>"; };
+		8397423D1D9742DC00A973A0 /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewController.m; sourceTree = "<group>"; };
+		8397423F1D975E7D00A973A0 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		83EDDC851D95A61B00799888 /* AppServiceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppServiceProvider.h; sourceTree = "<group>"; };
 		83EDDC861D95A61B00799888 /* AppServiceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppServiceProvider.m; sourceTree = "<group>"; };
 		83EDDC891D95FE4C00799888 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
@@ -155,6 +171,7 @@
 				83EDDC861D95A61B00799888 /* AppServiceProvider.m */,
 				83EDDC8F1D961BCD00799888 /* CoreDataService.h */,
 				83EDDC901D961BCD00799888 /* CoreDataService.m */,
+				8397423F1D975E7D00A973A0 /* UIColor+Hex.h */,
 			);
 			path = rostelecomChampion;
 			sourceTree = "<group>";
@@ -202,6 +219,10 @@
 				8320E4CF1D9577C900AC7E29 /* LevelMO+CoreDataClass.m */,
 				8320E4D01D9577C900AC7E29 /* LevelMO+CoreDataProperties.h */,
 				8320E4D11D9577C900AC7E29 /* LevelMO+CoreDataProperties.m */,
+				83213F111D96922600FEF696 /* TaskStatusMO.h */,
+				83213F121D96922600FEF696 /* TaskStatusMO.m */,
+				839742361D9729C300A973A0 /* TaskRequest.h */,
+				839742371D9729C300A973A0 /* TaskRequest.m */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -215,6 +236,12 @@
 				83EDDC8A1D95FE4C00799888 /* ProfileViewController.m */,
 				83EDDC8C1D95FFE900799888 /* QuestTableViewCell.h */,
 				83EDDC8D1D95FFE900799888 /* QuestTableViewCell.m */,
+				83213F141D96AB9B00FEF696 /* MyQuestTableViewCell.h */,
+				83213F151D96AB9B00FEF696 /* MyQuestTableViewCell.m */,
+				839742391D973A8B00A973A0 /* AchievementTableViewCell.h */,
+				8397423A1D973A8B00A973A0 /* AchievementTableViewCell.m */,
+				8397423C1D9742DC00A973A0 /* TaskViewController.h */,
+				8397423D1D9742DC00A973A0 /* TaskViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -357,6 +384,7 @@
 				83EDDC8E1D95FFE900799888 /* QuestTableViewCell.m in Sources */,
 				8320E4DD1D9577C900AC7E29 /* RequestMO+CoreDataProperties.m in Sources */,
 				8301B74E1D95361F00C5FF3D /* LoginViewController.m in Sources */,
+				8397423E1D9742DC00A973A0 /* TaskViewController.m in Sources */,
 				8320E4D31D9577C900AC7E29 /* AchievementMO+CoreDataProperties.m in Sources */,
 				83EDDC8B1D95FE4C00799888 /* ProfileViewController.m in Sources */,
 				8320E4DB1D9577C900AC7E29 /* DepartmentMO+CoreDataProperties.m in Sources */,
@@ -366,12 +394,16 @@
 				8320E4DE1D9577C900AC7E29 /* Balance_logMO.m in Sources */,
 				8320E4D51D9577C900AC7E29 /* TaskMO+CoreDataProperties.m in Sources */,
 				8301B74B1D95361F00C5FF3D /* AppDelegate.m in Sources */,
+				8397423B1D973A8B00A973A0 /* AchievementTableViewCell.m in Sources */,
+				83213F131D96922600FEF696 /* TaskStatusMO.m in Sources */,
 				8320E4DC1D9577C900AC7E29 /* RequestMO+CoreDataClass.m in Sources */,
 				83EDDC911D961BCD00799888 /* CoreDataService.m in Sources */,
 				8301B7481D95361F00C5FF3D /* main.m in Sources */,
 				8301B8071D9546D000C5FF3D /* ConnectionService.m in Sources */,
+				83213F171D96AB9B00FEF696 /* MyQuestTableViewCell.m in Sources */,
 				8320E4D81D9577C900AC7E29 /* UserMO+CoreDataClass.m in Sources */,
 				8320E4E11D9577C900AC7E29 /* LevelMO+CoreDataProperties.m in Sources */,
+				839742381D9729C300A973A0 /* TaskRequest.m in Sources */,
 				8320E4E01D9577C900AC7E29 /* LevelMO+CoreDataClass.m in Sources */,
 				83EDDC871D95A61B00799888 /* AppServiceProvider.m in Sources */,
 				8301B7541D95361F00C5FF3D /* rostelecomChampion.xcdatamodeld in Sources */,

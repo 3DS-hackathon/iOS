@@ -6,6 +6,8 @@
 target 'rostelecomChampion' do
 
 pod 'AFNetworking', '~> 3.0'
+pod 'YLProgressBar', '~> 3.10.0'
+pod 'SWTableViewCell', '~> 0.3.7'
 
 end
 

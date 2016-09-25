@@ -17,12 +17,15 @@
     self.desc = dict[@"desc"];
     self.name = dict[@"name"];
     self.pic = dict[@"pic"];
+    self.background_color = dict[@"background_color"];
+    self.text_color = dict[@"text_color"];
     for (NSDictionary* task in dict[@"tasks"]){
-        [self addTasksObject:[[TaskMO alloc] initWithDictionary:task]];
+        [self.tasks addObject:[[TaskMO alloc] initWithDictionary:task]];
         
     }
+    self.date_recieved = [NSDate dateWithTimeIntervalSince1970:[dict[@"date_recieved"]integerValue]];
     for (NSDictionary* user in dict[@"users"]){
-        [self addUsersObject:[[UserMO alloc] initWithDictionary:user]];
+        [self.users addObject:[[UserMO alloc] initWithDictionary:user]];
         
     }
     return self;

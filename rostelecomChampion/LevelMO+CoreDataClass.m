@@ -18,7 +18,7 @@
     self.name = dict[@"name"];
     self.start_count = [dict[@"start_count"] integerValue];
     for (NSDictionary* user in dict[@"users"]){
-        [self addUserObject:[[UserMO alloc] initWithDictionary:user]];
+        [self.user addObject:[[UserMO alloc] initWithDictionary:user]];
     }
     return self;
 }

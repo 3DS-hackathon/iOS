@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface QuestTableViewCell : UITableViewCell
+#import <SWTableViewCell.h>
+@interface QuestTableViewCell : SWTableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *balanceLabel;
 @property (weak, nonatomic) IBOutlet UILabel *xpLabel;
 @property (weak, nonatomic) IBOutlet UILabel *descLabel;
-
+@property (weak, nonatomic) IBOutlet UIImageView *imageQuest;
+@property NSInteger task_id;
 @end

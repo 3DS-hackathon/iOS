@@ -16,20 +16,24 @@
 
 -(instancetype) initWithDictionary:(NSDictionary*)dict{
 //    self = [NSEntityDescription insertNewObjectForEntityForName:@"Task" inManagedObjectContext:[[AppServiceProvider shared].coreDataService managedObjectContext]];
-    self.progress = [dict[@"progress"] integerValue];
-    self.progress_user = [dict[@"progress_user"] integerValue];
+    
+    self.progress = ![[NSNull null] isEqual: dict[@"progress"]] || dict[@"progress"] != 0  ? [dict[@"progress"] integerValue] : 0;
+//    self.progress_user = [dict[@"progress_user"] integerValue];
     self.desc = dict[@"desc"];
     self.name = dict[@"name"];
     self.total_count = [dict[@"total_count"] integerValue];
     self.type = dict[@"type"];
+    self.pic = dict[@"pic"];
+
+    self.id = [dict[@"id"] integerValue];
     for (NSDictionary* achieve in dict[@"achievement"]){
     
-        [self addAchievementObject:[[AchievementMO alloc] initWithDictionary:achieve]];
+        [self.achievement addObject:[[AchievementMO alloc] initWithDictionary:achieve]];
     }
     
     for (NSDictionary* user in dict[@"users"]){
         
-//        [self addUserObject:[[UserMO alloc] initWithDictionary:user]];
+        [self.users addObject:[[UserMO alloc] initWithDictionary:user]];
     }
     
     self.balance = [[Balance_logMO alloc]initWithDictionary:dict[@"balacne"]];

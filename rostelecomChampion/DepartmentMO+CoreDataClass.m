@@ -18,7 +18,7 @@
     self.name = dict[@"name"];
     self.rating = [dict[@"rating"] integerValue];
     for (NSDictionary* user in dict[@"users"]){
-        [self addUsersObject:[[UserMO alloc] initWithDictionary:user]];
+        [self.users addObject:[[UserMO alloc] initWithDictionary:user]];
     }
     return self;
 }

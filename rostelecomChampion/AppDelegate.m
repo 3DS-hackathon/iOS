@@ -16,7 +16,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    if ([[NSUserDefaults standardUserDefaults] valueForKey:@"accessToken"]){
+        UIStoryboard* main = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        UINavigationController* controller = [main instantiateViewControllerWithIdentifier:@"navigationController"];
+
+        self.window.rootViewController = controller;
+        
+    }
     return YES;
 }
 

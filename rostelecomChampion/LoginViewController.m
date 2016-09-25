@@ -28,9 +28,13 @@
 
 - (IBAction)loginButtonPress:(id)sender {
     
-    [[AppServiceProvider shared].connectionService login:_emailTextField.text password:_passwordTextField.text withBlock:^(bool succeded, NSDictionary * dict) {
+    [[AppServiceProvider shared].connectionService login:_emailTextField.text password:_passwordTextField.text withBlock:^(BOOL succeded, NSDictionary * dict) {
         if (succeded) {
-            
+//            UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//            UINavigationController *controller = [sb instantiateViewControllerWithIdentifier:@"navigationController"];
+//            [self.navigationController pushViewController:controller animated:YES];
+            [self performSegueWithIdentifier:@"login" sender:self];
+
         }
         
     }];

@@ -15,16 +15,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AttachmentMO : NSObject
 
-@property (nonatomic) UIImage* image;
 
 -(instancetype)initWithDictionary:(NSDictionary*) dict;
 @property (nullable, nonatomic, copy) NSString *file_name;
 @property (nullable, nonatomic, copy) NSString *mime_type;
 @property (nullable, nonatomic, copy) NSString *path;
-@property (nullable, nonatomic, retain) NSSet<RequestMO *> *request;
+@property (nonatomic, nonatomic) UIImage* image;
 
+@property (nullable, nonatomic, retain) NSMutableArray<RequestMO *> *request;
 @end
 
 NS_ASSUME_NONNULL_END
 
-#import "AttachmentMO+CoreDataProperties.h"
+//#import "AttachmentMO+CoreDataProperties.h"

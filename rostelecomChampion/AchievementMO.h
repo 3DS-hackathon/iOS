@@ -20,12 +20,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *desc;
 @property (nullable, nonatomic, copy) NSString *name;
 @property (nullable, nonatomic, copy) NSString *pic;
-@property (nullable, nonatomic, retain) NSSet<TaskMO *> *tasks;
-@property (nullable, nonatomic, retain) NSSet<UserMO *> *users;
+@property (nullable, nonatomic, copy) NSString *background_color;
+@property (nullable, nonatomic, copy) NSString *text_color;
+@property (nullable, nonatomic, copy) NSDate *date_recieved;
+
+@property (nullable, nonatomic, retain) NSMutableArray<TaskMO *> *tasks;
+@property (nullable, nonatomic, retain) NSMutableArray<UserMO *> *users;
 
 
 @end
 
 NS_ASSUME_NONNULL_END
 
-#import "AchievementMO+CoreDataProperties.h"
